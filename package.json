@@ -13,5 +13,8 @@
   "dependencies": {
     "vuepress": "2.0.0-rc.0",
     "vuepress-theme-reco": "2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-nprogress": "^2.0.0-rc.0"
   }
 }

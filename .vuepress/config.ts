@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
-
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'
 export default defineUserConfig({
   title: "Yuhang's Blog",
   description: "Just playing around",
@@ -31,8 +31,8 @@ export default defineUserConfig({
     },
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/qianduan/1/" },
-      { text: "Tags", link: "/tags/qianduan/1/" },
+      { text: "Categories", link: "/categories/qianduan/1/" ,icon:'MachineLearning'},
+      { text: "Tags", link: "/tags/Markdown/1/",icon:'Tag' },
       // {
       //   text: "Docs",
       //   children: [
@@ -109,5 +109,9 @@ export default defineUserConfig({
     //   },
     // },
   }),
+  // 使用进度条插件
+  plugins: [
+    nprogressPlugin(),
+  ],
   // debug: true,
 });

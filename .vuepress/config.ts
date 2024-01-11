@@ -33,6 +33,7 @@ export default defineUserConfig({
       { text: "Home", link: "/" },
       { text: "Categories", link: "/categories/qianduan/1/" ,icon:'MachineLearning'},
       { text: "Tags", link: "/tags/Markdown/1/",icon:'Tag' },
+      { text: "Time", link: "/timeline",icon:'Time' },
       // {
       //   text: "Docs",
       //   children: [

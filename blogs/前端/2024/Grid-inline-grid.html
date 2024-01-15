@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <span>foo</span>
+    <div class="wrapper">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <span>bar</span>
+</body>
+<style>
+    .wrapper{
+        width:450px;
+        background: #f3f3f3;
+        text-align:center;
+        display: inline-grid;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px
+    }
+    .item{
+        text-align: center;
+        border:1px solid #fff;
+        color:#fff;
+        font-weight: bold;
+        line-height: 150px;
+    }
+    .item:first-of-type{
+        background:#ef342a
+    }
+    .item:nth-of-type(2){
+        background:#00a0a0;
+    }
+    .item:nth-of-type(3){
+        background:#a0a0ff;
+    }
+</style>
+
+</html>

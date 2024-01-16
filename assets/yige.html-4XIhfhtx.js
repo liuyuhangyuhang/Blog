@@ -1,0 +1,1 @@
+import{_ as t,o,c,a as e}from"./app-iGMGIGKa.js";const _={},n=e("blockquote",null,[e("p",null,"复杂的世界,一个就够了。")],-1),s=[n];function l(a,r){return o(),c("div",null,s)}const u=t(_,[["render",l],["__file","yige.html.vue"]]);export{u as default};

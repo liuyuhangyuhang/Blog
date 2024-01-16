@@ -1,0 +1,1 @@
+import{_ as t,o,c,a as e}from"./app-iGMGIGKa.js";const n={},s=e("blockquote",null,[e("p",null,"时间是一个令人捉摸不定的东西。晴时有风阴有时雨...")],-1),_=[s];function a(l,r){return o(),c("div",null,_)}const u=t(n,[["render",a],["__file","shijian.html.vue"]]);export{u as default};
